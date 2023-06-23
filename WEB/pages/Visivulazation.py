@@ -14,7 +14,7 @@ st.set_page_config(
 st.title('Lung_Cancer_Visualization')
 
 st.header('1.How data looks like after converting it into dataframe:') 
-img = Image.open('/WEB/1.jpeg')
+img = Image.open('WEB/1.jpeg')
 st.image(img)
 
 st.header('2.Checking for null values in our DataFrame:')
