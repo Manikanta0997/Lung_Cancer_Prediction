@@ -4,7 +4,7 @@ import pandas as pd
 import sklearn
 import numpy as np
 
-pipe = pickle.load(open('/WEB/Lung_Cancer_Prediction_using_KNN10.pkl','rb'))
+pipe = pickle.load(open('WEB/Lung_Cancer_Prediction_using_KNN10.pkl','rb'))
 st.set_page_config(
     page_title="Lung_Cancer_Predictor",
     page_icon="🧊",
